@@ -32,21 +32,21 @@ Before you begin, ensure you have met the following requirements:
 - Node.js installed (v12 or higher)
 - MongoDB instance (local or remote)
 
-## Installation
 
- Clone the repository:
 
-   ```sh
-   git clone https://github.com/akshay2172/Backened_Crud_API.git
+  Clone the repository:
+
+   
+   1. git clone https://github.com/akshay2172/Backened_Crud_API.git
    cd Backened_Crud_API
 
-npm install
+   2. npm install
 
-The API will be accessible at http://localhost:4000
+   3. The API will be accessible at http://localhost:4000
 
-API Endpoints
+## API Endpoints
 
-# Create a Product
+ # Create a Product
 . URL: /api/products
 . Method: POST
 . Request Body:
