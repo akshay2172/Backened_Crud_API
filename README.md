@@ -1,6 +1,6 @@
 # backened_crud_API
 
-## This project is a Node.js API that performs CRUD (Create, Read, Update, Delete) operations and interacts with a MongoDB database.
+## This is a Node.js API that performs CRUD (Create, Read, Update, Delete) operations and interacts with a MongoDB database.
 
 ## Table of Contents
 
