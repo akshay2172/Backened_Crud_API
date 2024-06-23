@@ -7,7 +7,7 @@ const getproduct = async (req, res, next) => {
     const max = await Product.findById(req.params.id); 
 
     if (!max) {
-      return res.status(404).json("product not found");
+      return res.status(404).json("product not found")
     }
     res.status(200).json(max);
   } catch (error) {

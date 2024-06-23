@@ -22,7 +22,7 @@ app.use(express.urlencoded({ extended: false }));
 
 app.get('/' , (req, res)=>{
     res.send("Welcome to my API")
-})
+});
 
 app.post("/api/products", postproduct);
 app.get("/api/products", getallproducts);
