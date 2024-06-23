@@ -4,7 +4,7 @@ const app = express()
 
 const getproduct = async (req, res, next) => {
   try {
-    const max = await Product.findById(req.params.id); //in mongodb we write like this (findbyid)
+    const max = await Product.findById(req.params.id); 
 
     if (!max) {
       return res.status(404).json("product not found");
@@ -19,7 +19,7 @@ const getproduct = async (req, res, next) => {
 
 const getallproducts = async (req, res) => {
   try {
-    const products = await Product.find({}); // it will find all the products in the productschema
+    const products = await Product.find({}); 
     res.status(200).json(products);
   } catch (error) {
     res.status(404).json({ message: error.message });

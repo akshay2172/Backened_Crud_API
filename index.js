@@ -1,7 +1,7 @@
 const express = require("express");
 const mongoose = require('mongoose')
 
-const loggers = require("./middleware/loggers.js"); // Ensure the path is correct
+const loggers = require("./middleware/loggers.js"); 
 
 const {
   getallproducts,
@@ -16,9 +16,9 @@ const port = 4000;
 
 app.use(loggers); 
 app.use(express.json());
-app.use(express.urlencoded({ extended: false })); // Allow form data submission
+app.use(express.urlencoded({ extended: false })); 
 
-// Ensure logger is a valid middleware function
+
 
 app.get('/' , (req, res)=>{
     res.send("Welcome to my API")

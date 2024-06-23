@@ -110,4 +110,4 @@ Contributions are always welcome! Please follow these steps:
 - Create your feature branch: git checkout -b feature/YourFeature
 - Commit your changes: git commit -m 'Add some feature'
 - Push to the branch: git push origin feature/YourFeature
-- Open a pull request.-
+- Open a pull request
