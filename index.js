@@ -32,7 +32,7 @@ app.delete("/api/products/:id", deleteproduct);
 
 mongoose
   .connect(
-    "mongodb+srv://wwwakshaykumar04855:r7rumgNmjMUw2Qvp@backenedapi.41oar2s.mongodb.net/crud-api?retryWrites=true&w=majority&appName=backenedapi"
+    "mongodb+srv://username:<password>@cluster0.nfvlaeh.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
   )
   .then(() => {
     console.log("connected to the database");
